@@ -1,11 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    overflow:scroll;
 }
 
 .navbar {
     background-color: #333;
     overflow: hidden;
+    position: fixed;
+    width:100%;
 }
 
 .navbar a {
@@ -27,6 +30,7 @@ body {
 
 .content {
     padding: 20px;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 600px) {
